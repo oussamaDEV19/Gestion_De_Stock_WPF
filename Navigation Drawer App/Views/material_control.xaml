@@ -1,0 +1,148 @@
+﻿<UserControl x:Class="Navigation_Drawer_App.Views.material_control"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Navigation_Drawer_App"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             
+             d:DesignHeight="600" d:DesignWidth="933">
+
+    <UserControl.Resources>
+        <!--// Text font style //-->
+
+        <Style x:Key="font_style" TargetType="TextBlock">
+
+            <Setter Property="FontFamily"
+                    Value="Fonts/Roboto-Light.ttf #Roboto"/>
+
+            <Setter Property="VerticalAlignment"
+                    Value="Center"/>
+
+            <Setter Property="HorizontalAlignment"
+                    Value="Left"/>
+
+            <Setter Property="Foreground"
+                    Value="White"/>
+
+            <Setter Property="FontSize"
+                    Value="20"/>
+
+        </Style>
+
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.Background>
+
+            <ImageBrush x:Name="img_bg"
+                                ImageSource="../Assets/back.png"
+                                Stretch="Fill"/>
+
+        </Grid.Background>
+        <TextBlock Text="Matériel "
+                   Margin="682,20,0,532"
+                   FontSize="40"
+                   Style="{DynamicResource font_style}" Width="166"/>
+        <Button 
+            Margin="870,536,0.8,2"
+            BorderThickness="0"  
+             Height="Auto">
+
+            <Button.Background >
+
+                <ImageBrush  ImageSource="/Navigation Drawer App;component/Assets/material.png"/>
+
+            </Button.Background>
+
+        </Button>
+
+
+        <materialDesign:Card Height="Auto"
+  Padding="19" Margin="72,119,527.8,25">
+            <StackPanel>
+                <TextBlock 
+                    Text="Ajouter / Supprimer / Editer un  matériel"
+                    
+                    
+      Margin="0,16,-0.4,8"
+      FontSize="16">
+
+                </TextBlock>
+                <Separator
+      Style="{StaticResource MaterialDesignLightSeparator}" Background="LightGray" />
+                <StackPanel Margin="0 20 0 0">
+
+                    <TextBox x:Name="num_inv"
+  materialDesign:HintAssist.Hint="numéro d'inventaire"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding SelectedItem.num_inventaire, ElementName=grid_view, Mode=OneWay}" />
+                    <TextBox x:Name="nom_mat"
+                        materialDesign:HintAssist.Hint="nom materiel"
+                        Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                        Text="{Binding SelectedItem.nom_materiel, ElementName=grid_view, Mode=OneWay}" />
+                    
+                    <TextBox x:Name="forni"   
+                        materialDesign:HintAssist.Hint="fournisseur"
+                        Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                        Text="{Binding SelectedItem.fornisseur, ElementName=grid_view, Mode=OneWay}" />
+                    
+                    <TextBox x:Name="quant"
+  materialDesign:HintAssist.Hint="quantite d'entree"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding SelectedItem.quantite, ElementName=grid_view, Mode=OneWay}"/>
+                    <TextBox x:Name="bon_com"
+  materialDesign:HintAssist.Hint="bon de commandes"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding SelectedItem.bon_commande, ElementName=grid_view, Mode=OneWay}"/>
+                    <TextBox x:Name="bon_liv"
+  materialDesign:HintAssist.Hint="bon de livraison"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding SelectedItem.bon_iveraison, ElementName=grid_view, Mode=OneWay}"/>
+
+                    <Label Content="categorie"/>
+                    <ComboBox Name="cat" VerticalAlignment="Stretch" ItemsSource="{Binding  Source={x:Static local:Conn_materiel.categorie}}" DisplayMemberPath="NomSousCategorie" SelectedValuePath="IdSC"  SelectedValue="{Binding SelectedItem.id_sous_cat, ElementName=grid_view, Mode=OneWay}"/>
+
+                    <Separator
+      Style="{StaticResource MaterialDesignLightSeparator}" />
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="13*"/>
+                            <RowDefinition Height="3*"/>
+                        </Grid.RowDefinitions>
+                        <Button Content="Delete" Background="Red" Margin="207,0,0,0" Click="Button_Click_1" Grid.RowSpan="2"/>
+                        <Button Content="Ajouter"  Margin="0,0,207,0" Click="Button_Click" Grid.RowSpan="2"/>
+                        <Button Content="Update" Background="Green" Margin="104,0,103,0" VerticalAlignment="Top" Grid.RowSpan="2" Click="Button_Click_2" RenderTransformOrigin="0.501,0.5"/>
+
+                    </Grid>
+
+                </StackPanel>
+
+            </StackPanel>
+        </materialDesign:Card>
+        <DataGrid HorizontalAlignment="Left" Height="417" Margin="447,83,0,0" VerticalAlignment="Top" Width="454" RenderTransformOrigin="0.5,0.5"
+                   ItemsSource="{Binding  Source={x:Static local:Conn_materiel.materiel}}" AutoGenerateColumns="False" Name="grid_view" SelectionChanged="DataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="50" Binding="{Binding id_materiel}"
+Header="ID"/>
+                <DataGridTextColumn Width="120" Binding="{Binding nom_materiel}"
+Header="Nom Materiel"/>
+                <DataGridTextColumn  Width="100" Binding="{Binding date_entree}"
+Header="date d'entree"/>
+                <DataGridTextColumn  Width="100" Binding="{Binding num_inventaire}"
+Header="numero d'inventaire"/>
+                <DataGridTextColumn  Width="100" Binding="{Binding fornisseur}"
+Header="Fournisseur"/>
+
+                <DataGridTextColumn  Width="100" Binding="{Binding bon_commande}"
+Header="bon comande"/>
+                <DataGridTextColumn  Width="100" Binding="{Binding bon_iveraison}"
+Header="bon livraison"/>
+                <DataGridTextColumn  Width="100" Binding="{Binding stock}"
+Header="stock"/>
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <Button Background="MediumSlateBlue" Content="Importer" HorizontalAlignment="Left" Margin="447,519,0,0" VerticalAlignment="Top" Width="454" Height="56" Click="Button_Click_4"/>
+        <Button Background="BlueViolet" Content="Exporter"  HorizontalAlignment="Left" Margin="72,58,0,0" VerticalAlignment="Top" Width="333" Height="42" Click="Button_Click_3"/>
+
+    </Grid>
+
+</UserControl>

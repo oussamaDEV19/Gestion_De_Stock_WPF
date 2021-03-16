@@ -1,0 +1,94 @@
+﻿<Window x:Class="Navigation_Drawer_App.Views.Commander"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Navigation_Drawer_App.Views"
+        mc:Ignorable="d"
+        Title="Commander" Height="450" Width="800"
+         WindowStartupLocation="CenterScreen"
+        >
+    <Window.Resources>
+        <!--// Text font style //-->
+
+        <Style x:Key="font_style" TargetType="TextBlock">
+
+            <Setter Property="FontFamily"
+                    Value="Fonts/Roboto-Light.ttf #Roboto"/>
+
+            <Setter Property="VerticalAlignment"
+                    Value="Center"/>
+
+            <Setter Property="HorizontalAlignment"
+                    Value="Left"/>
+
+            <Setter Property="Foreground"
+                    Value="White"/>
+
+            <Setter Property="FontSize"
+                    Value="20"/>
+
+        </Style>
+
+    </Window.Resources>
+    <Grid>
+        <Grid.Background>
+
+            <ImageBrush x:Name="img_bg"
+                                ImageSource="../Assets/back.png"
+                                Stretch="Fill"/>
+
+        </Grid.Background>
+        <materialDesign:Card Height="Auto"
+  Padding="19" Margin="205,10,160.6,10">
+            <StackPanel>
+                <TextBlock 
+                    Text="Commander un matériel"
+                    
+                    
+      Margin="0,16,-0.4,8"
+      FontSize="16">
+
+                </TextBlock>
+                <Separator
+Style="{StaticResource MaterialDesignLightSeparator}"    Background="LightGray" />
+                <StackPanel Margin="0 20 0 0">
+                    <TextBox x:Name="idMat" 
+  materialDesign:HintAssist.Hint="id_materiel"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding id_materiel}" />
+                   
+                    <ComboBox x:Name="comboPer"
+                        materialDesign:HintAssist.Hint="Personel" 
+                        IsEditable="True" Margin="0 0 0 0"
+                        Style="{StaticResource MaterialDesignFloatingHintComboBox}"  DisplayMemberPath="nom" SelectedValuePath="idP">
+
+
+                    </ComboBox>
+
+                    <TextBox x:Name="quantite"
+  materialDesign:HintAssist.Hint="quantité"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                      <ComboBox x:Name="comboboxSer"
+  materialDesign:HintAssist.Hint="Services" 
+  IsEditable="True" Margin="0 20 0 0"
+  Style="{StaticResource MaterialDesignFloatingHintComboBox}" DisplayMemberPath="nomS" SelectedValuePath="idS">
+ 
+                          
+                    </ComboBox>
+
+                    <Separator
+      Style="{StaticResource MaterialDesignLightSeparator}" />
+                    <Grid>
+                        <Button Content="Enregistrer" Background="Red" Margin="207,0,-0.4,0" Click="Button_Click"/>
+                        
+                    </Grid>
+                    
+
+                </StackPanel>
+
+            </StackPanel>
+        </materialDesign:Card>
+
+    </Grid>
+</Window>

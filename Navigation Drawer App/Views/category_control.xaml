@@ -1,0 +1,175 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Navigation_Drawer_App.Views"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="Navigation_Drawer_App.Views.category_control"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="933">
+    <UserControl.Resources>
+        <!--// Text font style //-->
+
+        <Style x:Key="font_style" TargetType="{x:Type TextBlock}">
+
+            <Setter Property="FontFamily"
+                    Value="Fonts/Roboto-Light.ttf #Roboto"/>
+
+            <Setter Property="VerticalAlignment"
+                    Value="Center"/>
+
+            <Setter Property="HorizontalAlignment"
+                    Value="Left"/>
+
+            <Setter Property="Foreground"
+                    Value="White"/>
+
+            <Setter Property="FontSize"
+                    Value="20"/>
+
+        </Style>
+
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+
+            <ImageBrush x:Name="img_bg"
+                                ImageSource="../Assets/back.png"
+                                Stretch="Fill"/>
+
+        </Grid.Background>
+        <TextBlock Text="Category "
+                   Margin="675,26,0,526"
+                   FontSize="40"
+                   Style="{DynamicResource font_style}" Width="166"/>
+
+        <Button 
+            Margin="870,536,0.8,2"
+            BorderThickness="0"  
+             Height="Auto">
+
+            <Button.Background >
+
+                <ImageBrush  ImageSource="/Navigation Drawer App;component/Assets/category.png"/>
+
+            </Button.Background>
+
+        </Button>
+
+        <materialDesign:Card Height="Auto"
+            Padding="19" Margin="54,63,535.8,298">
+            <StackPanel>
+                <TextBlock 
+                    Text="Ajouter une sours_categorie"
+                    
+                    
+                    Margin="0,16,-0.4,8"
+                    FontSize="16"/>
+                <Separator
+                    Style="{StaticResource MaterialDesignLightSeparator}" Background="LightGray" />
+                <StackPanel Margin="0 0 0 0">
+                    <TextBox x:Name="ids"
+                        materialDesign:HintAssist.Hint="sous_categorie"
+                        Style="{StaticResource MaterialDesignFloatingHintTextBox}" Text="{Binding nomsouscat}" />
+
+                    <ComboBox x:Name="combocat"
+                        materialDesign:HintAssist.Hint="Categorie" 
+                        IsEditable="True" Margin="0 0 0 0"
+                        Style="{StaticResource MaterialDesignFloatingHintComboBox}" ItemsSource="{Binding fillCombCat}" DisplayMemberPath="NomCategorie" SelectedValuePath="Id">
+
+
+                    </ComboBox>
+
+
+
+                    <Separator
+                        Style="{StaticResource MaterialDesignLightSeparator}" />
+                    <Grid>
+                        <Button Content="Ajouter"  Margin="207,0,-0.4,0" Click="Button_Click"/>
+
+                    </Grid>
+
+                </StackPanel>
+
+            </StackPanel>
+        </materialDesign:Card>
+        <materialDesign:Card Height="Auto"
+            Padding="19" Margin="54,322,535.8,39">
+            <StackPanel>
+                <TextBlock 
+                    Text="Supprimer une sous_categorie"
+                    
+                    
+                    Margin="0,16,-0.4,8"
+                    FontSize="16"/>
+                <Separator
+                    Style="{StaticResource MaterialDesignLightSeparator}" Background="LightGray" />
+                <StackPanel Margin="0 0 0 0">
+
+
+                    <ComboBox x:Name="combSC"
+                        materialDesign:HintAssist.Hint="sous-categorie" 
+                        IsEditable="True" Margin="0 0 0 0"
+                        Style="{StaticResource MaterialDesignFloatingHintComboBox}" ItemsSource="{Binding fillCombSCat}" DisplayMemberPath="NomSousCategorie" SelectedValuePath="IdSC">
+
+
+                    </ComboBox>
+
+                    <Separator
+                        Style="{StaticResource MaterialDesignLightSeparator}" />
+                    <Grid>
+                        <Button Content="Delete" Background="Red" Margin="207,0,-0.4,0" Click="Button_Click_1"/>
+
+                    </Grid>
+
+                </StackPanel>
+
+            </StackPanel>
+        </materialDesign:Card>
+        <materialDesign:Card Height="Auto"
+            Padding="19" Margin="498,145,91.8,109">
+            <StackPanel>
+                <TextBlock 
+                    Text="Modifier une sous_categorie"
+                    
+                    
+                    Margin="0,16,-0.4,8"
+                    FontSize="16"/>
+                <Separator
+                    Style="{StaticResource MaterialDesignLightSeparator}" Background="LightGray" />
+                <StackPanel Margin="0 0 0 0">
+                    <ComboBox x:Name="comboboxSCat" SelectionChanged="changerSousCat"
+                        materialDesign:HintAssist.Hint="sous-categorie" 
+                        IsEditable="True" Margin="0 0 0 0"
+                        Style="{StaticResource MaterialDesignFloatingHintComboBox}" ItemsSource="{Binding fillCombSCat}" DisplayMemberPath="NomSousCategorie" SelectedValuePath="IdSC">
+
+                    </ComboBox>
+
+
+
+
+
+                    <Separator
+                        Style="{StaticResource MaterialDesignLightSeparator}" />
+                    <Grid>
+                        <Button Content="Update" Background="Green" Margin="205,100,1.8,-100" Click="Button_Click_2"/>
+
+                    </Grid>
+                    <ComboBox x:Name="comboboxCat"
+                        materialDesign:HintAssist.Hint="Categorie" 
+                        IsEditable="True" Margin="0,0,-0.2,0"
+                        Style="{StaticResource MaterialDesignFloatingHintComboBox}" ItemsSource="{Binding fillCombCat}" DisplayMemberPath="NomCategorie" SelectedValuePath="Id"/>
+
+                </StackPanel>
+
+            </StackPanel>
+        </materialDesign:Card>
+
+
+
+    </Grid>
+</UserControl>

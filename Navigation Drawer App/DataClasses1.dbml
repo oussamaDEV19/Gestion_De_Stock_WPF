@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="gestion_magasin" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-EQF7V2V\SQLEXPRESS01;Initial Catalog=gestion_magasin;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False" SettingsObjectName="Navigation_Drawer_App.Properties.Settings" SettingsPropertyName="gestion_magasinConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Categorie" Member="Categories">
+    <Type Name="Categorie">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NomCategorie" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="Categorie_sous_categorie" Member="sous_categories" ThisKey="Id" OtherKey="IdCat" Type="sous_categorie" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Service" Member="Services">
+    <Type Name="Service">
+      <Column Name="idS" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nomS" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Service_commande" Member="commandes" ThisKey="idS" OtherKey="IDSer" Type="commande" />
+    </Type>
+  </Table>
+  <Table Name="dbo.sous_categorie" Member="sous_categories">
+    <Type Name="sous_categorie">
+      <Column Name="IdSC" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NomSousCategorie" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IdCat" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="sous_categorie_materiel" Member="materiels" ThisKey="IdSC" OtherKey="id_sous_cat" Type="materiel" />
+      <Association Name="Categorie_sous_categorie" Member="Categorie" ThisKey="IdCat" OtherKey="Id" Type="Categorie" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.personnel" Member="personnels">
+    <Type Name="personnel">
+      <Column Name="idP" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nom" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="prenom" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="login" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="personnel_commande" Member="commandes" ThisKey="idP" OtherKey="IdPer" Type="commande" />
+    </Type>
+  </Table>
+  <Table Name="dbo.commande" Member="commandes">
+    <Type Name="commande">
+      <Column Name="IdCommande" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="quantite" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IdMat" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IdPer" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IDSer" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="personnel_commande" Member="personnel" ThisKey="IdPer" OtherKey="idP" Type="personnel" IsForeignKey="true" DeleteRule="CASCADE" />
+      <Association Name="Service_commande" Member="Service" ThisKey="IDSer" OtherKey="idS" Type="Service" IsForeignKey="true" DeleteRule="CASCADE" />
+      <Association Name="materiel_commande" Member="materiel" ThisKey="IdMat" OtherKey="id_materiel" Type="materiel" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.materiels" Member="materiels">
+    <Type Name="materiel">
+      <Column Name="id_materiel" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nom_materiel" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="date_entree" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="num_inventaire" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fornisseur" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="quantite" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="bon_commande" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="bon_iveraison" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="stock" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="id_sous_cat" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="materiel_commande" Member="commandes" ThisKey="id_materiel" OtherKey="IdMat" Type="commande" />
+      <Association Name="sous_categorie_materiel" Member="sous_categorie" ThisKey="id_sous_cat" OtherKey="IdSC" Type="sous_categorie" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+</Database>

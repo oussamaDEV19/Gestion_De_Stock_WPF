@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="Navigation_Drawer_App.Views.liste_materiel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Navigation_Drawer_App.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Margin="0,0,-54,-55.4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="755*"/>
+            <ColumnDefinition Width="99*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid SelectedItem="{Binding selectMateriel}"  Height="360" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5"
+             AutoGenerateColumns="False" x:Name="grid_view" Margin="10,0,98.2,0" SelectionChanged="Grid_view_SelectionChanged" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="50" Binding="{Binding id_materiel}"
+                    Header="ID"/>
+                <DataGridTextColumn  Width="100" Binding="{Binding nom_materiel}"
+                    Header="Nom Mateiriel"/>
+
+                <DataGridTextColumn  Width="100" Binding="{Binding fornisseur}"
+                    Header="Fournisseur"/>
+                <DataGridTextColumn  Width="100" Binding="{Binding quantite}"
+                    Header="Quantite"/>
+
+                <DataGridTextColumn  Width="100" Binding="{Binding stock}"
+                    Header="stock"/>
+
+                <DataGridTextColumn  Width="100" Binding="{Binding date_entree}"
+                    Header="Date"/>
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <Button x:Name="commander" Background="MediumSlateBlue" Content="Commander" HorizontalAlignment="Left" Margin="10,385,0,0" VerticalAlignment="Top" Width="437" Height="56" Click="commanderMat" />
+    </Grid>
+</UserControl>

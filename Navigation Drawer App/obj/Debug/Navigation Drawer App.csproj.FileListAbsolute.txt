@@ -1,0 +1,188 @@
+C:\Users\Arun Enterprises Co\source\repos\Navigation Drawer App\Navigation Drawer App\bin\Debug\Navigation Drawer App.exe.config
+C:\Users\Arun Enterprises Co\source\repos\Navigation Drawer App\Navigation Drawer App\bin\Debug\Navigation Drawer App.exe
+C:\Users\Arun Enterprises Co\source\repos\Navigation Drawer App\Navigation Drawer App\bin\Debug\Navigation Drawer App.pdb
+C:\Users\Arun Enterprises Co\source\repos\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.csprojAssemblyReference.cache
+C:\Users\Arun Enterprises Co\source\repos\Navigation Drawer App\Navigation Drawer App\obj\Debug\MainWindow.g.cs
+C:\Users\Arun Enterprises Co\source\repos\Navigation Drawer App\Navigation Drawer App\obj\Debug\App.g.cs
+C:\Users\Arun Enterprises Co\source\repos\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App_MarkupCompile.cache
+C:\Users\Arun Enterprises Co\source\repos\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App_MarkupCompile.lref
+C:\Users\Arun Enterprises Co\source\repos\Navigation Drawer App\Navigation Drawer App\obj\Debug\MainWindow.baml
+C:\Users\Arun Enterprises Co\source\repos\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.g.resources
+C:\Users\Arun Enterprises Co\source\repos\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation_Drawer_App.Properties.Resources.resources
+C:\Users\Arun Enterprises Co\source\repos\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.csproj.GenerateResource.cache
+C:\Users\Arun Enterprises Co\source\repos\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.exe
+C:\Users\Arun Enterprises Co\source\repos\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.pdb
+C:\Users\Arun Enterprises Co\Desktop\Navigation Drawer App - YouTube Upload Contents\Source Code\Navigation Drawer App\Navigation Drawer App\bin\Debug\Navigation Drawer App.exe.config
+C:\Users\Arun Enterprises Co\Desktop\Navigation Drawer App - YouTube Upload Contents\Source Code\Navigation Drawer App\Navigation Drawer App\bin\Debug\Navigation Drawer App.exe
+C:\Users\Arun Enterprises Co\Desktop\Navigation Drawer App - YouTube Upload Contents\Source Code\Navigation Drawer App\Navigation Drawer App\bin\Debug\Navigation Drawer App.pdb
+C:\Users\Arun Enterprises Co\Desktop\Navigation Drawer App - YouTube Upload Contents\Source Code\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.csprojAssemblyReference.cache
+C:\Users\Arun Enterprises Co\Desktop\Navigation Drawer App - YouTube Upload Contents\Source Code\Navigation Drawer App\Navigation Drawer App\obj\Debug\MainWindow.g.cs
+C:\Users\Arun Enterprises Co\Desktop\Navigation Drawer App - YouTube Upload Contents\Source Code\Navigation Drawer App\Navigation Drawer App\obj\Debug\App.g.cs
+C:\Users\Arun Enterprises Co\Desktop\Navigation Drawer App - YouTube Upload Contents\Source Code\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App_MarkupCompile.cache
+C:\Users\Arun Enterprises Co\Desktop\Navigation Drawer App - YouTube Upload Contents\Source Code\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App_MarkupCompile.lref
+C:\Users\Arun Enterprises Co\Desktop\Navigation Drawer App - YouTube Upload Contents\Source Code\Navigation Drawer App\Navigation Drawer App\obj\Debug\MainWindow.baml
+C:\Users\Arun Enterprises Co\Desktop\Navigation Drawer App - YouTube Upload Contents\Source Code\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.g.resources
+C:\Users\Arun Enterprises Co\Desktop\Navigation Drawer App - YouTube Upload Contents\Source Code\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation_Drawer_App.Properties.Resources.resources
+C:\Users\Arun Enterprises Co\Desktop\Navigation Drawer App - YouTube Upload Contents\Source Code\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.csproj.GenerateResource.cache
+C:\Users\Arun Enterprises Co\Desktop\Navigation Drawer App - YouTube Upload Contents\Source Code\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.exe
+C:\Users\Arun Enterprises Co\Desktop\Navigation Drawer App - YouTube Upload Contents\Source Code\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.pdb
+F:\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation Drawer App\Navigation Drawer App\Navigation Drawer App\bin\Debug\Navigation Drawer App.exe.config
+F:\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation Drawer App\Navigation Drawer App\Navigation Drawer App\bin\Debug\Navigation Drawer App.exe
+F:\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation Drawer App\Navigation Drawer App\Navigation Drawer App\bin\Debug\Navigation Drawer App.pdb
+F:\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation Drawer App\Navigation Drawer App\Navigation Drawer App\obj\Debug\MainWindow.g.cs
+F:\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation Drawer App\Navigation Drawer App\Navigation Drawer App\obj\Debug\App.g.cs
+F:\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation Drawer App\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App_MarkupCompile.cache
+F:\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation Drawer App\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App_MarkupCompile.lref
+F:\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation Drawer App\Navigation Drawer App\Navigation Drawer App\obj\Debug\MainWindow.baml
+F:\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation Drawer App\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.g.resources
+F:\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation Drawer App\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation_Drawer_App.Properties.Resources.resources
+F:\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation Drawer App\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.csproj.GenerateResource.cache
+F:\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation Drawer App\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.csproj.CoreCompileInputs.cache
+F:\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation Drawer App\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.exe
+F:\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation Drawer App\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.pdb
+F:\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation-Drawer-Sidebar-Menu-in-WPF-master\Navigation Drawer App\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.csprojAssemblyReference.cache
+F:\Navigation Drawer App\Navigation Drawer App\bin\Debug\Navigation Drawer App.exe.config
+F:\Navigation Drawer App\Navigation Drawer App\bin\Debug\Navigation Drawer App.exe
+F:\Navigation Drawer App\Navigation Drawer App\bin\Debug\Navigation Drawer App.pdb
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.csprojAssemblyReference.cache
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\MainWindow.g.cs
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\App.g.cs
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App_MarkupCompile.cache
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App_MarkupCompile.lref
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\MainWindow.baml
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.g.resources
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation_Drawer_App.Properties.Resources.resources
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.csproj.GenerateResource.cache
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.csproj.CoreCompileInputs.cache
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.exe
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.pdb
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\login.g.cs
+F:\Navigation Drawer App\Navigation Drawer App\bin\Debug\MaterialDesignColors.dll
+F:\Navigation Drawer App\Navigation Drawer App\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\Navigation Drawer App\Navigation Drawer App\bin\Debug\MaterialDesignColors.pdb
+F:\Navigation Drawer App\Navigation Drawer App\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\Navigation Drawer App\Navigation Drawer App\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\login.baml
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Navigation Drawer App.csproj.CopyComplete
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\App.baml
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Views\background.g.cs
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Views\home_control.g.cs
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Views\background.baml
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Views\home_control.baml
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Views\category_control.g.cs
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Views\material_control.g.cs
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Views\order_control.g.cs
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Views\Personal_control.g.cs
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Views\statistique_control.g.cs
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Views\category_control.baml
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Views\material_control.baml
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Views\order_control.baml
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Views\Personal_control.baml
+F:\Navigation Drawer App\Navigation Drawer App\obj\Debug\Views\statistique_control.baml
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\login.g.cs
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\MainWindow.g.cs
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\background.g.cs
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\category_control.g.cs
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\home_control.g.cs
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\material_control.g.cs
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\order_control.g.cs
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\Personal_control.g.cs
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\statistique_control.g.cs
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\App.g.cs
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation Drawer App_MarkupCompile.cache
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation Drawer App_MarkupCompile.lref
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation Drawer App.exe
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation Drawer App.pdb
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Navigation Drawer App.exe.config
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Navigation Drawer App.exe
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Navigation Drawer App.pdb
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\bin\Debug\MaterialDesignColors.dll
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\bin\Debug\MaterialDesignColors.pdb
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\App.baml
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\login.baml
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\MainWindow.baml
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\background.baml
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\category_control.baml
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\home_control.baml
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\material_control.baml
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\order_control.baml
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\Personal_control.baml
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\statistique_control.baml
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation Drawer App.g.resources
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation_Drawer_App.Properties.Resources.resources
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation Drawer App.csproj.GenerateResource.cache
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation Drawer App.csproj.CoreCompileInputs.cache
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation Drawer App.csproj.CopyComplete
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\liste_materiel.g.cs
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\liste_materiel.baml
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation Drawer App.csprojAssemblyReference.cache
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\Commander.g.cs
+C:\Users\h\source\repos\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\Commander.baml
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Navigation Drawer App.exe.config
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Navigation Drawer App.exe
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Navigation Drawer App.pdb
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\MaterialDesignColors.dll
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\MaterialDesignColors.pdb
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\login.g.cs
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\MainWindow.g.cs
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\category_control.g.cs
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\Commander.g.cs
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\home_control.g.cs
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\liste_materiel.g.cs
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\material_control.g.cs
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\order_control.g.cs
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\Personal_control.g.cs
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\statistique_control.g.cs
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\App.g.cs
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation Drawer App_MarkupCompile.cache
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation Drawer App_MarkupCompile.lref
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\App.baml
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\login.baml
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\MainWindow.baml
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\category_control.baml
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\Commander.baml
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\home_control.baml
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\liste_materiel.baml
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\material_control.baml
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\order_control.baml
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\Personal_control.baml
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Views\statistique_control.baml
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation Drawer App.g.resources
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation_Drawer_App.Properties.Resources.resources
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation Drawer App.csproj.GenerateResource.cache
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation Drawer App.csproj.CoreCompileInputs.cache
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation Drawer App.csproj.CopyComplete
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation Drawer App.exe
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation Drawer App.pdb
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Telerik.Windows.Controls.dll
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Telerik.Windows.Controls.FileDialogs.dll
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Telerik.Windows.Controls.GridView.dll
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Telerik.Windows.Controls.Input.dll
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Telerik.Windows.Controls.Navigation.dll
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Telerik.Windows.Data.dll
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Telerik.Windows.Controls.xml
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Telerik.Windows.Controls.FileDialogs.xml
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Telerik.Windows.Controls.GridView.xml
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Telerik.Windows.Controls.Input.xml
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Telerik.Windows.Controls.Navigation.xml
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Telerik.Windows.Data.xml
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\de\Telerik.Windows.Controls.resources.dll
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\es\Telerik.Windows.Controls.resources.dll
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\fr\Telerik.Windows.Controls.resources.dll
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\it\Telerik.Windows.Controls.resources.dll
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\nl\Telerik.Windows.Controls.resources.dll
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\tr\Telerik.Windows.Controls.resources.dll
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation Drawer App.csprojAssemblyReference.cache
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\obj\Debug\Navigation Drawer App_Content.g.cs
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Syncfusion.Licensing.dll
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Syncfusion.SfChart.WPF.dll
+F:\mini projet v-total\Mini Projet - WPF\Mini Projet - WPF\Navigation Drawer App\bin\Debug\Syncfusion.SfChart.WPF.xml

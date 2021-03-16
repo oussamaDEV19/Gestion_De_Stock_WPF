@@ -1,0 +1,61 @@
+﻿<UserControl x:Class="Navigation_Drawer_App.Views.home_control"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Navigation_Drawer_App.Views"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="933">
+
+    <UserControl.Resources>
+        <!--// Text font style //-->
+
+        <Style x:Key="font_style" TargetType="TextBlock">
+
+            <Setter Property="FontFamily"
+                    Value="Fonts/Roboto-Light.ttf #Roboto"/>
+
+            <Setter Property="VerticalAlignment"
+                    Value="Center"/>
+
+            <Setter Property="HorizontalAlignment"
+                    Value="Left"/>
+
+            <Setter Property="Foreground"
+                    Value="White"/>
+
+            <Setter Property="FontSize"
+                    Value="20"/>
+
+        </Style>
+
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.Background>
+
+            <ImageBrush x:Name="img_bg"
+                                ImageSource="../Assets/img_background.png"
+                                Stretch="Fill"/>
+
+        </Grid.Background>
+        <TextBlock Text="Home"
+                   Margin="700,21,0,531"
+                   FontSize="40"
+                   Style="{DynamicResource font_style}" Width="115"/>
+        <Button
+            Margin="863,530,-0.2,0"
+            BorderThickness="0"  
+             Height="Auto" RenderTransformOrigin="0.623,0.97">
+
+            <Button.Background >
+
+                <ImageBrush   ImageSource="/Navigation Drawer App;component/Assets/img_home.png"/>
+
+            </Button.Background>
+
+        </Button>
+
+    </Grid>
+</UserControl>
